@@ -1,4 +1,4 @@
-import nltk
+#import nltk
 import logging
 from fasttext import ft_search
 from tf_idf import tf_idf_search
