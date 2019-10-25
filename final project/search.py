@@ -3,7 +3,8 @@ import logging
 from fasttext import ft_search
 from tf_idf import tf_idf_search
 from bm25 import bm25_search
-from via_elmo import elmo_search, batcher, sentence_character_ids, elmo_sentence_input
+from via_elmo import elmo_search, batcher, sentence_character_ids, \
+    elmo_sentence_input
 from flask import Flask
 from flask import render_template, request
 import pickle
